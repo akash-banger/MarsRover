@@ -6,5 +6,5 @@ and then, In the project directory (danceWebsite), you can run:
 
 ### `node app.js`
 
-Runs the app.\
+Runs the website.\
 Open [http://localhost:80](http://localhost:80) to view it in your browser.
