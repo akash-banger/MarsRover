@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&family=Mochiy+Pop+One&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+nav{
+    background-image: linear-gradient(to right,#3c0100,#460001,#400102);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    padding: 0.4%;
+}
+a{
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: 'Square Peg', cursive;
+    text-decoration: none;
+    color: white;
+    padding: 0.7% 3.6% 0.7% 3.6%;
+}
+a:hover{
+    background-color: white;
+    color: darkcyan;
+}
+section{
+    height: 450px;
+}
+#top{
+    margin-left: 70px;
+    font-size: 50px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Square Peg', cursive;
+    color: rgb(76, 223, 169);
+    padding-top: 30px;
+}
+#bottom{
+    margin-top: 210px;
+    margin-right: 70px;
+    float: right;
+    font-size: 50px;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Square Peg', cursive;
+    color: rgb(76, 223, 169);
+}
+.intro{
+    background-image: url(/static/poster.webp);
+    background-position: -20px -20px;
+    background-size: 100%;
+    background-repeat: repeat-x;
+}
+
+.mission{
+    height: 350px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Square Peg', cursive;
+    background-color: darkgray;;
+}
+.container{
+    overflow: hidden;
+    box-shadow: 5px 2.5px 10px black;
+    font-size: small;
+    font-family: 'Mochiy Pop One', sans-serif;
+    float: left;
+    margin: 20px;
+    width: 15.2%;
+    height: 60%;
+    border-radius: 10px;
+    border-bottom-right-radius: 0px;
+    background-color:rgb(238, 255, 249);
+    transition: all 0.5s;
+}
+h8{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.container:hover{
+    width: 16.4%;
+    height: 70%;
+    box-shadow: 20px 10px 40px black;
+}
+
+.containerr{
+    margin-left: 15%;
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-bottom-right-radius: 40px;
+    background-color: #ffcfcf;
+    transition: all 0.5s;
+}
+.heading{
+    font-family: fantasy;
+    font-size: medium;
+    color: black;
+    margin-left: 0%;
+}
+
+.container:hover .inner{
+    height: 40%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 110px;
+    background-color: #3c0100;
+}
+
+#sponimg{
+    margin-top: 0;
+    margin-left: 2.5%;
+    width: 95%;
+    transition: all 1s;
+}
+
+#sponimg:hover{
+    margin-left: 1%;
+    width: 98.5%;
+}
+
+.sponsor{
+    display: block;
+    height: 600px;
+    background-color: white;
+}
+.sponsorhead{
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 43%;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Square Peg', cursive;
+    font-size: 48px;
+}
+.para{
+    padding: 0px 60px 60px 60px;
+    text-align: center;
+}
+
+#para{
+
+}
+
+.foot{
+    background-color: #3c0100;
+}
+
+
+
+

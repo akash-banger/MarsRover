@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch Bulb</title>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .Btn{
+            padding: 15px;
+            border-radius: 23px;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <img id="apniImage" class="center" src="bulbOff.jpg" width="40%" alt="">
+    <button id="apnaBtn" class="center Btn">Turn On The Bulb</button>
+    <script>
+        // var check = true;
+        // function performTask(){
+        //     if(check == true){
+        //         apniImage.src = "bulbOn.jpg";
+        //         apnaBtn.textContent = "Turn Off The Bulb";
+        //     }else if(check == false){
+        //         apniImage.src = "bulbOff.jpg";
+        //         apnaBtn.textContent = "Turn On The Bulb";
+        //     }
+        //     check = !check;
+        // }
+        // better code 
+        apnaBtn.addEventListener('click',performTask);
+        function performTask(){
+            if(apnaBtn.textContent.includes('On')){
+                apniImage.src = "bulbOn.jpg";
+                apnaBtn.textContent = "Turn Off The Bulb";
+            }else if(apnaBtn.textContent.includes('Off')){
+                apniImage.src = "bulbOff.jpg";
+                apnaBtn.textContent = "Turn On The Bulb";
+            }
+        }
+    </script>
+</body>
+</html>
